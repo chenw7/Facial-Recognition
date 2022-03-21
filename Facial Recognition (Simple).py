@@ -1,5 +1,8 @@
-#source code: https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam_faster.py
-#class demo
+#This program uses the face_recognition library and opencv library to identify faces stored by the user in the same folder as this program.
+#Author @Wei-cen Chen
+#Version March 21, 2022
+
+#Importing the necessary libraries to run the program
 import face_recognition
 import cv2
 import numpy as np
@@ -19,7 +22,7 @@ biden_face_encoding = face_recognition.face_encodings(biden_image)[0]
 known_face_encodings = [obama_face_encoding, biden_face_encoding]
 known_face_names = ["Barack Obama", "Joe Biden"]
 
-#Initialize variables
+#Initialize variables and arrays to store variables in later
 face_locations = []
 face_encodings = []
 face_names = []
@@ -38,11 +41,13 @@ while True:
         face_locations = face_recognition.face_locations(rgb_small_frame)
         face_encodings = face_recognition.face_encodings(rgb_small_frame, face_locations)
         
+        #compare faces captured in image to images stored in folder
         face_names =[]
         for face_encoding in face_encodings:
             matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
             name = "Unknown"
             
+            #Using numpy to find the best match for identified faces
             face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
             best_match_index = np.argmin(face_distances)
             if matches[best_match_index]:
@@ -70,7 +75,7 @@ while True:
     #display results    
     cv2.imshow('Video',frame)
 
-    #type "q" to quit
+    #type "q" to stop web cam execution
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
