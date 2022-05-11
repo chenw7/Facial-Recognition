@@ -63,10 +63,9 @@ https://github.com/chenw7/Simple-Facial-Recognition/blob/main/Facial%20Recogniti
         
 12. Now that all necessary libraries and accessories for the program have been installed, copy the code into jupyter notebook. 
 
-13. Before you execute the program, notice the code from lines 13 to 23. To personalize your program and recognize faces you want 
+13. Before you execute the program, notice the code from lines 13 to 23. To personalize your program and recognize faces you want, you will have to modify the code and upload images into the same folder as where you stored the program. 
 
-14. For this program, images have to be saved in the same folder as the code in order for it to be recognized by the program. The following screenshot shows how to correctly store your program and images in the correct folder.
-<img width="372" alt="Screen Shot 2022-04-11 at 8 39 54 AM" src="https://user-images.githubusercontent.com/91576538/162647457-8d1bf06c-a6b4-4c43-9ab5-6ab6be6afdee.png">
+14. Firstly, find the two people you would like to have their faces recognized (Let's call them John and Mary for our example). Then, take an image of their face and store it as a jpeg file in the same folder as your program. 
 
 15. The output of the program should appear like somewhat of the following screenshots.
 
