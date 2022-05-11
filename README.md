@@ -70,11 +70,10 @@ https://github.com/chenw7/Simple-Facial-Recognition/blob/main/Facial%20Recogniti
 
 15. The output of the program should appear like somewhat of the following screenshots.
 
-  Faces that were uploaded into the program: 
+  Faces that were uploaded into the program: Simba, Biden
 <img width="1193" alt="Screen Shot 2022-04-08 at 8 30 57 AM" src="https://user-images.githubusercontent.com/91576538/167743608-62504650-251a-49cd-ae15-685bb9f8e53c.png">
-  Faces that were recognized by the program:
-<img width="1154" alt="Screen Shot 2022-04-08 at 8 22 20 AM" src="https://user-images.githubusercontent.com/91576538/167743635-eda52388-3647-424a-964b-a7e2aacf50e3.png">
-  Faces that were recognized by the program: 
+  Faces that were recognized by the program: Obama, Biden
+<img width="1154" alt="Screen Shot 2022-04-08 at 8 22 20 AM" src="https://user-images.githubusercontent.com/91576538/167743635-eda52388-3647-424a-964b-a7e2aacf50e3.png"> 
 <img width="1222" alt="Screen Shot 2022-04-08 at 8 20 34 AM" src="https://user-images.githubusercontent.com/91576538/167743642-b9edde45-2683-4380-8121-750d84e607ec.png">
 
 16. If errors regarding cv2 or any of the other modules still exist, search for solutions on stackoverflow (most solutions to your problems can be found).
