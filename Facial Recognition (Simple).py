@@ -11,15 +11,15 @@ import numpy as np
 video_capture = cv2.VideoCapture(0)
 
 #Load sample picture and learn to recognize
-obama_image = face_recognition.load_image_file("obama.jpeg")
-obama_face_encoding = face_recognition.face_encodings(obama_image)[0]
+first_image = face_recognition.load_image_file("obama.jpeg")
+first_face_encoding = face_recognition.face_encodings(first_image)[0]
 
 #Load second sample picture and learn to recognize
-biden_image = face_recognition.load_image_file("biden.jpeg")
-biden_face_encoding = face_recognition.face_encodings(biden_image)[0]
+second_image = face_recognition.load_image_file("biden.jpeg")
+second_face_encoding = face_recognition.face_encodings(second_image)[0]
 
 #Create array of known face encodings & corresponding names
-known_face_encodings = [obama_face_encoding, biden_face_encoding]
+known_face_encodings = [first_face_encoding, second_face_encoding]
 known_face_names = ["Barack Obama", "Joe Biden"]
 
 #Initialize variables and arrays to store variables in later
@@ -33,7 +33,7 @@ while True:
     ret, frame = video_capture.read()
     small_frame = cv2.resize(frame, (0,0), fx=0.25, fy=0.25)
     
-    #convert image from BGR color to RGB color
+    #convert image from BGR color to RGB color (for faster processing time and less computer memory storage consumption)
     rgb_small_frame = small_frame[:, :, ::-1]
     
     #process less frames to save time
@@ -72,10 +72,10 @@ while True:
         font = cv2.FONT_HERSHEY_DUPLEX
         cv2.putText(frame, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
         
-    #display results    
+    #display results in live feed video   
     cv2.imshow('Video',frame)
 
-    #type "q" to stop web cam execution
+    #press "q" to stop web cam execution
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
