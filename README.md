@@ -63,18 +63,18 @@ https://github.com/chenw7/Simple-Facial-Recognition/blob/main/Facial%20Recogniti
         
 12. Now that all necessary libraries and accessories for the program have been installed, copy the code into jupyter notebook. 
 
-13. Before you can execute the program, notice the code from lines 13 to 23. These lines include [insert text]
+13. Before you execute the program, notice the code from lines 13 to 23. To personalize your program and recognize faces you want 
 
 14. For this program, images have to be saved in the same folder as the code in order for it to be recognized by the program. The following screenshot shows how to correctly store your program and images in the correct folder.
 <img width="372" alt="Screen Shot 2022-04-11 at 8 39 54 AM" src="https://user-images.githubusercontent.com/91576538/162647457-8d1bf06c-a6b4-4c43-9ab5-6ab6be6afdee.png">
 
-15. If errors regarding cv2 or any of the other modules still exist, search for solutions on stackoverflow (most solutions to your problems can be found).
+15. The output of the program should appear like somewhat of the following screenshots.
 
-16. The output of the program should appear like somewhat of the following screenshots.
-
-  Faces that were recognized by the program: 
+  Faces that were uploaded into the program: 
 <img width="1193" alt="Screen Shot 2022-04-08 at 8 30 57 AM" src="https://user-images.githubusercontent.com/91576538/167743608-62504650-251a-49cd-ae15-685bb9f8e53c.png">
   Faces that were recognized by the program:
 <img width="1154" alt="Screen Shot 2022-04-08 at 8 22 20 AM" src="https://user-images.githubusercontent.com/91576538/167743635-eda52388-3647-424a-964b-a7e2aacf50e3.png">
   Faces that were recognized by the program: 
 <img width="1222" alt="Screen Shot 2022-04-08 at 8 20 34 AM" src="https://user-images.githubusercontent.com/91576538/167743642-b9edde45-2683-4380-8121-750d84e607ec.png">
+
+16. If errors regarding cv2 or any of the other modules still exist, search for solutions on stackoverflow (most solutions to your problems can be found).
