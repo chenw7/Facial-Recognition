@@ -75,6 +75,7 @@ Then, modify the code from lines 13 to 23 in order for the program to correctly 
        
 <img width="577" alt="Screen Shot 2022-05-13 at 12 27 41 PM" src="https://user-images.githubusercontent.com/91576538/168211487-3012d169-e03a-4606-9fee-04fcd259ac2b.png">
        
+
 15. The output of the program should appear like somewhat of the following screenshots.
 
   Faces that were uploaded into the program: Simba, Biden
