@@ -63,10 +63,18 @@ https://github.com/chenw7/Simple-Facial-Recognition/blob/main/Facial%20Recogniti
         
 12. Now that all necessary libraries and accessories for the program have been installed, copy the code into jupyter notebook. 
 
-13. Before you execute the program, notice the code from lines 13 to 23. To personalize your program and recognize faces you want, you will have to modify the code and upload images into the same folder as where you stored the program. 
+13. Before you execute the program, notice the code from lines 13 to 23. To personalize your program and recognize faces you want, you will have to modify the code and upload images into the same folder as where you stored the program (detailed instructions are included in step 14). 
 
-14. Firstly, find the two people you would like to have their faces recognized (Let's call them John and Mary for our example). Then, take an image of their face and store it as a jpeg file in the same folder as your program. 
+14. Firstly, find the two people you would like to have their faces recognized (Let's call them John and Mary for our example). Then, take an image of their face and store it as a jpeg file in the same folder as your program (Should look similar to the following).
 
+<img width="288" alt="Screen Shot 2022-05-13 at 12 13 50 PM" src="https://user-images.githubusercontent.com/91576538/168210023-b07128dd-754f-4412-bce2-e9bb79fe8a39.png">
+       
+       Note that the file has to be in a jpeg format in order for the program to correctly produce a trained face model of your desired person.
+       
+       Then, modify the code from lines 13 to 23 in order for the program to correctly operate. In our case, the two people are named John and Mary and their two corresponding pictures are named John.jpeg and Mary.jpeg. The program will have to be modified like the following.
+       
+       <img width="577" alt="Screen Shot 2022-05-13 at 12 27 41 PM" src="https://user-images.githubusercontent.com/91576538/168211487-3012d169-e03a-4606-9fee-04fcd259ac2b.png">
+       
 15. The output of the program should appear like somewhat of the following screenshots.
 
   Faces that were uploaded into the program: Simba, Biden
