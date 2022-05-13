@@ -69,11 +69,11 @@ https://github.com/chenw7/Simple-Facial-Recognition/blob/main/Facial%20Recogniti
 
 <img width="288" alt="Screen Shot 2022-05-13 at 12 13 50 PM" src="https://user-images.githubusercontent.com/91576538/168210023-b07128dd-754f-4412-bce2-e9bb79fe8a39.png">
        
-       Note that the file has to be in a jpeg format in order for the program to correctly produce a trained face model of your desired person.
+      Note that the file has to be in a jpeg format in order for the program to correctly produce a trained face model of your desired person.
        
-       Then, modify the code from lines 13 to 23 in order for the program to correctly operate. In our case, the two people are named John and Mary and their two corresponding pictures are named John.jpeg and Mary.jpeg. The program will have to be modified like the following.
+      Then, modify the code from lines 13 to 23 in order for the program to correctly operate. In our case, the two people are named John and Mary and their two corresponding pictures are named John.jpeg and Mary.jpeg. The program will have to be modified like the following.
        
-       <img width="577" alt="Screen Shot 2022-05-13 at 12 27 41 PM" src="https://user-images.githubusercontent.com/91576538/168211487-3012d169-e03a-4606-9fee-04fcd259ac2b.png">
+      <img width="577" alt="Screen Shot 2022-05-13 at 12 27 41 PM" src="https://user-images.githubusercontent.com/91576538/168211487-3012d169-e03a-4606-9fee-04fcd259ac2b.png">
        
 15. The output of the program should appear like somewhat of the following screenshots.
 
