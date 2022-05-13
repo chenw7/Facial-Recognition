@@ -80,7 +80,7 @@ Then, modify the code from lines 13 to 23 in order for the program to correctly 
 
   Faces that were uploaded into the program: Simba, Biden
 <img width="1193" alt="Screen Shot 2022-04-08 at 8 30 57 AM" src="https://user-images.githubusercontent.com/91576538/167743608-62504650-251a-49cd-ae15-685bb9f8e53c.png">
-  Faces that were recognized by the program: Obama, Biden
+  Faces that were uploaded into the program: Obama, Biden
 <img width="1154" alt="Screen Shot 2022-04-08 at 8 22 20 AM" src="https://user-images.githubusercontent.com/91576538/167743635-eda52388-3647-424a-964b-a7e2aacf50e3.png"> 
 <img width="1222" alt="Screen Shot 2022-04-08 at 8 20 34 AM" src="https://user-images.githubusercontent.com/91576538/167743642-b9edde45-2683-4380-8121-750d84e607ec.png">
 
