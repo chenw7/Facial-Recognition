@@ -1,6 +1,7 @@
 #This program uses the face_recognition library and opencv library to identify faces stored by the user in the same folder as this program.
 #Author @Wei-cen Chen
 #Version March 21, 2022
+#Please read the instructions before trying to execute the program because there a lot of necessary installations that are required in order for this program to work.
 
 #Importing the necessary libraries to run the program
 import face_recognition
