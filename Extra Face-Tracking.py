@@ -1,7 +1,7 @@
-
-
 #This program does not recognize but instead, tracks the face of any user that is present in the live webcam feed. 
 #As long as the necessary libraries (numpy and opencv) are installed on your computer, this program will run successfully.
+#Author @Wei-cen Chen
+#Version February 15, 2022
 
 #Importing the necessary libraries to run the program
 import numpy as np
