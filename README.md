@@ -1,5 +1,4 @@
 # Facial-Recognition
-If you have previously installed necessary libraries for this program (from the hand tracking program), please skip to step 10.
 
 Here are the steps to follow in order to correctly set up your computer to run the simple face recognition program.
 
